@@ -1,0 +1,15 @@
+nav li a {
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+nav li:hover {
+    border: 2px solid rgba(167, 236, 213, 0.459);
+    padding: 10px 10px;
+    background-color: rgba(135, 135, 236, 0.918);
+}
