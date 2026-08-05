@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pitha ghor</title>
+    <style>
+        .info label{display: block;
+            margin-top: 15px;
+
+        }
+    </style>
 </head>
 <body>
     <header></header>
@@ -11,17 +17,43 @@
         <section>
             <h2>Jamal mother pitha ghar</h2>
             <form>
-                <label for="Name">Your name</label>
+                <fieldset class=" info">
+                    <legend>Basic Info</legend>
+                    <label for="Name">Your name</label>
                 <input type="text" name="" id="name">
 
                 <label for="email">Your email</label>
                 <input type="email" name="" id="email">
+
                 <label for="pnone ">phone no</label>
                 <input type="number" name="" id="pnone">
+                </fieldset >
+                
                 <fieldset>
                     <legend>Pitha Info</legend>
-                    <input type="radio" name="" id="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">
                     <label for="chitoy">chitoy</label>
+                    <input type="radio" name="pitha" id="vapa">
+                    <label for="vapa">vapa</label>
+                    <input type="radio" name="pitha" id="dal puri">
+                    <label for="dal puri">dal puri</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Vorta Info </legend>
+                    <input type="checkbox" name="" id="sorisa">
+                    <label for="sorisa">sorisa vorta</label>
+                    <input type="checkbox" name="" id="sutki vorta">
+                    <label for="sutki vorta">sutki vorta</label>
+                    <input type="checkbox" name="" id="til">
+                    <label for="til">til vorta</label>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Extra info</legend>
+                    <textarea  cols="50" rows="20"></textarea>
+                    <br>
+                    <input type="submit" value="submit here">
+                    <input type="reset" value="clear this">
                 </fieldset>
             </form>
         </section>
