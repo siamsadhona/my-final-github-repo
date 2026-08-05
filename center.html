@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Flex</title>
+    <style>
+        *{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .container{
+            display: flex;
+            background-color: rgb(245, 161, 101);
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            align-items:end;
+            border-top-left-radius: 80px;
+            border-top-right-radius: 800px;
+            border-bottom-left-radius: 800px;
+            box-shadow: 0 0 50PX rgb(228, 7, 18);
+        }
+        .box{
+            background-color: rgb(238, 158, 92);
+            font-size: 1.343em;
+            height: 100px;
+            width:100px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 30px;
+            box-shadow: 0 0 20px blue;
+        }
+        body{
+            /* display: flex; */
+            /* gap: 49px; */
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Something</div>
+    </div>
+    <!-- <div class="container"> -->
+        <!-- <div class="box">Something</div> -->
+    </div>
+</body>
+</html>
