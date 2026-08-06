@@ -84,7 +84,7 @@ body{
 }
 
 button{
-    margin-top:30px;
+    margin-top:50px;
     padding:12px 35px;
     border:none;
     border-radius:30px;
@@ -96,6 +96,6 @@ button{
 }
 
 button:hover{
-    background:#0072ff;
+    background:#dd2d2d;
     transform:scale(1.05);
 }
